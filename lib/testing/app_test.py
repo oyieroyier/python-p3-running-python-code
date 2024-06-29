@@ -7,7 +7,7 @@ import sys
 
 class TestAppPy:
     '''
-    app.py
+    app.py.py
     '''
     def test_app_py_exists(self):
         '''

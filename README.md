@@ -45,7 +45,7 @@ new file in this repo's `lib/` directory called `app.py`. In this file, add
 the following:
 
 ```python
-# lib/app.py
+# lib/app.py.py
 print("Hello world!")
 ```
 
@@ -93,7 +93,7 @@ By default, `print()` includes a newline character at the end of your string.
 Try entering several `print()` statements in a row in `lib/app.py`:
 
 ```python
-# lib/app.py
+# lib/app.py.py
 print("Hello world!")
 print("Hello sun!")
 print("Hello sky!")
@@ -117,7 +117,7 @@ after every sentence. `print()` can accommodate that through its optional `end`
 parameter. Try modifying your `print()` statements as follows:
 
 ```py
-# lib/app.py
+# lib/app.py.py
 print("Hello world!", end=" ")
 print("Hello sun!", end="!! ")
 print("Hello sky!", end="!!!\n")
@@ -240,7 +240,7 @@ Let's take one of these tests as an example to see `pytest`'s syntax:
 
 ```python
 def test_app_py_exists():
-    assert(path.exists("lib/app.py"))
+    assert(path.exists("lib/app.py.py"))
 ```
 
 `pytest` expects a **function** with `test` in its name within the `testing`
